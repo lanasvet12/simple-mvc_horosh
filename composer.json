@@ -1,0 +1,25 @@
+{
+    "name": "horoshop/full-stack-dev-test",
+    "version": "1.0.15",
+    "description": "A Stub project for full stack dev test task",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bohdan Kalian",
+            "email": "bogdan.kalian@zteel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Horoshop\\Test\\" : "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
